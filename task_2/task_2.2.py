@@ -3,7 +3,7 @@ try:
     user_tic = 0
     for age in range(tickets):
         age = int(input('Возраст посетителя: '))
-        if 14 >= age < 18:
+        if 14 <= age < 18:
             user_tic += 0
             print('Бесплатный вход')
         elif 18 <= age < 25:
